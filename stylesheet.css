@@ -1,12 +1,20 @@
-body{
-margin: auto;
-height: 1000px;
-width: 800px;
-}
-
 h1{
 height: 200px;
 width: 400px;
 display: block;
 color: #632325;
+}
+
+h2{
+height: 200px;
+width: 400px;
+display: block;
+color: #616363;
+}
+
+h3{
+height: 200px;
+width: 400px;
+display: block;
+color: #616363;
 }
