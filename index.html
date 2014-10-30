@@ -72,7 +72,19 @@
 			<p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
 		</div>
 	</div>
-	
+	jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = jQuery(this).attr('href');
+ 
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+	});
 
 	<img src="https://scontent-b-sea.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10426244_911743972187278_3223052811354315659_n.jpg?oh=a2aacdb25f86dd15828352c240913431&oe=54959FD5" />
 	
