@@ -51,11 +51,11 @@ margin: auto;
 .content {
   position: absolute;
   top: 28px;
-  left: 0;
+  left: -125px;
   background: #007995;
   right: 0;
   bottom: 0;
-  padding: 120px;
+  padding: 20px;
   border: 1px solid #007995; 
 }
 [type=radio]:checked ~ label {
