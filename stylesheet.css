@@ -55,7 +55,7 @@ margin: auto;
   background: #007995;
   right: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 120px;
   border: 1px solid #007995; 
 }
 [type=radio]:checked ~ label {
