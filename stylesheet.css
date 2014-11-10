@@ -58,17 +58,9 @@ margin: auto;
   padding: 20px;
   border: 1px solid #007995; 
 }
-[type=radio]:checked ~ label {
-  background: #007995;
-  border-bottom: 1px solid #007995;
-  z-index: 2;
-}
-[type=radio]:checked ~ label ~ .content {
-  z-index: 1;
-}
-		
 
-img{
+
+.img{
 position: absolute;
   top: 28px;
   left: -125px;
@@ -77,4 +69,13 @@ position: absolute;
   bottom: 0;
   padding: 20px;
   border: 1px solid #007995; 
+}
+
+[type=radio]:checked ~ label {
+  background: #007995;
+  border-bottom: 1px solid #007995;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
 }
