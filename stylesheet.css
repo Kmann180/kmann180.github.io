@@ -59,7 +59,7 @@ margin: auto;
   border: 1px solid #007995; 
 }
 
-/*
+
 .img{
 position: absolute;
   top: 30px;
@@ -70,7 +70,7 @@ position: absolute;
   padding: 20px;
   border: 1px solid #007995; 
 }
-*/
+
 [type=radio]:checked ~ label {
   background: #007995;
   border-bottom: 1px solid #007995;
