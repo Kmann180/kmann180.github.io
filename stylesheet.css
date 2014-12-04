@@ -15,14 +15,14 @@ margin: auto;
 }
 
 ol{
-height: 300px;
+height: 1000px;
 width: 450px;
 display: block;
 margin: auto;
 }
 
 ul{
-height: 300px;
+height: 0px;
 width: 450px;
 display: block;
 margin: auto;
@@ -57,10 +57,6 @@ margin: auto;
   bottom: 0;
   padding: 20px;
   border: 1px solid #007995; 
-}
-.background{
-  color: #007995;
-  
 }
 
 .img{
