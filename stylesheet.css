@@ -28,6 +28,13 @@ display: block;
 margin: auto;
 }
 
+li{
+height: 20px;
+width: 450px;
+display: block;
+margin: auto;
+}
+
 .tabs {
   position: relative;   
   min-height: 200px; /* This part sucks */
