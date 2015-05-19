@@ -12,9 +12,11 @@ body
 {
   
 	background-color: #4682B4;
-
+	font-family: Helvetica,Arial,sans-serif;
+  	font-size: 14px;
+  	line-height: 1.5;
+  	font-weight: 300;
 }
-
 p 
 {
   
@@ -31,6 +33,7 @@ ul
   
 	padding: 0;
 
+	background-color: #B0C4DE;
 }
 
 li 
@@ -50,15 +53,26 @@ a.one
 
 a.one:link 
 {
-	color:#ff0000;
+	color: #000000;
 }
-
-a.one:visited 
-{
-	color:#0000ff;
-}
-
 a.one:hover 
+{
+	font-size:110%;
+}
+a.two 
+{
+  
+	display: block;
+
+}
+
+
+a.two:link 
+{
+	color: #000000;
+}
+
+a.two:hover 
 {
 	font-size:110%;
 }
@@ -80,7 +94,7 @@ a.one:hover
   
 	height: 87px;
   
-	width: 24.9266%;
+	width: 20%;
   
 	line-height: 87px;
   
