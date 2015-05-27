@@ -1,54 +1,36 @@
-h1{
+h1
+{
 height: 75px;
 width: 400px;
 display: block;
 color: #632325;
-margin: auto;
 }
 
-h3{
+h3
+{
 height: 50px;
-width: 400px;
+width: 400px:
 display: block;
 color: #632325;
-margin: auto;
 }
 
-ol{
+ol
+{
 height: 150px;
 width: 450px;
 display: block;
-margin: auto;
 }
 
-ul{
+ul
+{
 height: 150px;
 width: 450px;
 display: block;
-margin: auto;
 }
 
-.tabs {
-  position: relative;   
-  min-height: 200px; /* This part sucks */
-  clear: both;
-  margin: 25px 0;
-}
-.tab {
-  float: left;
-}
-.tab label {
-  background: #007995; 
-  padding: 10px; 
-  border: 1px solid #007995; 
-  margin-left: -1px; 
-  position: relative;
-  left: 1px; 
-}
-.tab [type=radio] {
-  display: none;   
-}
-.content {
+
+.content 
+{
   position: absolute;
   top: 28px;
   left: -125px;
@@ -57,18 +39,7 @@ margin: auto;
   bottom: 0;
   padding: 20px;
   border: 1px solid #007995; 
-}
-
-
-.img{
-position: absolute;
-  top: 30px;
-  left: -125px;
-  background: #007995;
-  right: 0;
-  bottom: 0;
-  padding: 20px;
-  border: 1px solid #007995; 
+  margin: 0px 20%;
 }
 
 [type=radio]:checked ~ label {
