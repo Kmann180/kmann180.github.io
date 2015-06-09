@@ -39,43 +39,25 @@ li
 
 }
 
-a.one 
+.Menu 
 {
-  
-	display: block;
-
-}
-
-
-a.one:link 
-{
-	color: #000000;
-}
-a.one:hover 
-{
-	font-size:110%;
-}
-a.two 
-{
-	display: block;
-}
-
-#nav 
-{
-	display: table;
-  	height: 87px;
-  	width: 100%;
-}
-
-
-#nav li 
-{
-	display: table-cell;
-	height: 87px;
-	width: 16%;
-	line-height: 87px;
+	position: relative;
+	background-color: #B0C4DE;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1%;
 	text-align: center;
-	white-space: nowrap;
+}
+
+
+.one
+{
+	text-align: center;
+	position: relative;
+	height: 87px;
+	line-height: 87px;
+	padding-right: 1%;
+	padding-left: 1%;
 }
 
 
