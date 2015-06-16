@@ -62,5 +62,10 @@ float: right;
 }
 .Center
 {
+	position: relative;
+	background-color: #B0C4DE;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-bottom: 1%;
 	text-align: center;
 }
