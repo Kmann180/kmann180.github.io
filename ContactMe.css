@@ -46,7 +46,33 @@ li
 	margin-left: 20%;
 	margin-right: 20%;
 	padding-bottom: 1%;
-	text-align: center;
+}
+.PictureSection
+{
+	position: relative;
+	background-color: #B0C4DE;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1%;
+}
+.BigPictures
+{
+	max-width:100%;
+	position: relative;
+	background-color: #B0C4DE;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1%;
+}
+.SmallPictures
+{
+	height:80px;
+	width: 80px;
+	position: relative;
+	background-color: #B0C4DE;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 1%;
 }
 
 
