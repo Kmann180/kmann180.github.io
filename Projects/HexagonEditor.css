@@ -1,8 +1,14 @@
 h1 
 {
   
-	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: center;
+}
+h2
+{
+  
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: center;
 }
 
 body
@@ -13,13 +19,20 @@ body
   	font-size: 14px;
   	line-height: 1.5;
   	font-weight: 300;
+	overflow: scroll;
 }
 
 
 p
 {
   
-	background-color: #B0C4DE;
+	text-align: center;
+
+}
+.p
+{
+  
+	text-align: center;
 
 }
 
@@ -36,6 +49,7 @@ li
 {
   
 	float: left;
+	text-align: center;
 
 }
 
@@ -64,8 +78,6 @@ li
 .picture 
 {
 	width: 800px;
-	height: 200px;
-	position: fixed;
 	top: 50%;
 	left: 50%;
 	margin-top: -100px;
@@ -74,10 +86,9 @@ li
 
 .exactCenter 
 {
+	position: relative;
 	width: 500px;
-	height: 200px;
-	position: fixed;
-	top: 250px;
+	top: 100px;
 	left: 40%;
 	margin-top: -100px;
 	margin-left: -100px;
