@@ -1,5 +1,13 @@
+h1 
+{
+  
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
 body
 {
+  
 	background-color: #4682B4;
 	font-family: Helvetica,Arial,sans-serif;
   	font-size: 14px;
@@ -7,37 +15,29 @@ body
   	font-weight: 300;
 }
 
-h1
+p
 {
-color: #632325;
-text-align: center;
+  
+	background-color: #B0C4DE;
+	text-align: center;
+	margin: 0px 20%;
+
 }
 
-h2
+ul 
 {
-color: #632325;
-text-align: center;
+  
+	list-style-type: none;
+	margin: 0;
+  	padding: 0;
+	background-color: #B0C4DE;
 }
 
-h3
+li 
 {
-color: #632325;
-}
+  
+	float: left;
 
-.Section
-{
-background-color: #B0C4DE;
-position: relative;
-margin-left: 25%;
-margin-right: 25%;
-padding-right: 2%;
-padding-left: 2%;
-padding-bottom: 1%;
-}
-
-.date
-{
-float: right;
 }
 
 .Menu 
@@ -60,12 +60,4 @@ float: right;
 	padding-right: 1%;
 	padding-left: 1%;
 }
-.Center
-{
-	position: relative;
-	background-color: #B0C4DE;
-	margin-left: 25%;
-	margin-right: 25%;
-	padding-bottom: 1%;
-	text-align: center;
-}
+
