@@ -15,11 +15,11 @@ body
   	font-weight: 300;
 }
 
+
 p
 {
   
 	background-color: #B0C4DE;
-	margin: 0px 20%;
 
 }
 
@@ -61,13 +61,24 @@ li
 }
 
 
-.exactCenter 
+.picture 
 {
-	width: 200px;
+	width: 800px;
 	height: 200px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+
+.exactCenter 
+{
+	width: 500px;
+	height: 200px;
+	position: fixed;
+	top: 250px;
+	left: 40%;
 	margin-top: -100px;
 	margin-left: -100px;
 }
