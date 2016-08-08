@@ -13,6 +13,12 @@ height: 75px;
 width: 400px;
 color: #632325;
 text-align: center;
+position: relative;
+margin-left: 25%;
+margin-right: 25%;
+padding-right: 2%;
+padding-left: 2%;
+padding-bottom: 1%;
 }
 
 h3
